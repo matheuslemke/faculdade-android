@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GSM</string>
+    <string name="insert_error">Erro ao inserir registro</string>
+    <string name="insert_success">Registro Inserido com sucesso</string>
+    <string name="null_error">Não pode ser vazio</string>
+    <string name="action_delete">Excluir</string>
+    <string name="student_name">Nome</string>
+    <string name="student_ra">RA</string>
+    <string name="student_standard">Curso</string>
+    <string name="save">Salvar</string>
+    <string name="dialog_delete_message">Excluir aluno?</string>
+    <string name="dialog_delete_ok">Confirmar</string>
+    <string name="dialog_delete_cancel">Cancelar</string>
+</resources>
