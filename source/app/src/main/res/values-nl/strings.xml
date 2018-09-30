@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigeren naar startpositie</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Omhoog navigeren</string>
+    <string name="abc_action_menu_overflow_description">Meer opties</string>
+    <string name="abc_action_mode_done">Gereed</string>
+    <string name="abc_activity_chooser_view_see_all">Alles weergeven</string>
+    <string name="abc_activitychooserview_choose_application">Een app selecteren</string>
+    <string name="abc_searchview_description_clear">Zoekopdracht wissen</string>
+    <string name="abc_searchview_description_query">Zoekopdracht</string>
+    <string name="abc_searchview_description_search">Zoeken</string>
+    <string name="abc_searchview_description_submit">Zoekopdracht verzenden</string>
+    <string name="abc_searchview_description_voice">Gesproken zoekopdracht</string>
+    <string name="abc_shareactionprovider_share_with">Delen met</string>
+    <string name="abc_shareactionprovider_share_with_application">Delen met %s</string>
+    <string name="abreviacao">Verkorte vorm</string>
+    <string name="abreviacao_exemplo">bijv. Een mogelijke verkorte vorm voor Biologie is Bio.</string>
+    <string name="app_name">Schoolagenda</string>
+    <string name="app_name_pro">Schoolagenda Pro</string>
+    <string name="atividade">Activiteit</string>
+    <string name="aviso_backup_deletar_tudo">• Als u alle toepassingen gegevens te verwijderen, gebruikt u deze functie.</string>
+    <string name="aviso_backup_descricao">Deze functie kan nuttig zijn in de volgende situaties:</string>
+    <string name="aviso_backup_upgrated_pro">• Als u een upgrade naar de Schoolagenda Pro en wil de gegevens van de gratis versie te kopiëren, gebruikt deze functie.</string>
+    <string name="btFoto">Foto</string>
+    <string name="calendario">Kalender</string>
+    <string name="camera_indisponivel">Camera niet beschikbaar</string>
+    <string name="cancelar">Annuleren</string>
+    <string name="cartao_indisponivel">SD-kaart niet beschikbaar</string>
+    <string name="comprar">Kopen</string>
+    <string name="continuar">Voortzetten</string>
+    <string name="copia_dados_anteriores_criada">Een kopie van de vorige data is opgeslagen op %s. Aldus is het mogelijk om een herstel te maken indien nodig.</string>
+    <string name="copia_dados_salva">Een kopie van de data is opgeslagen op %s. Aldus is het mogelijk om een herstel te maken indien nodig.</string>
+    <string name="copia_restaurada">Exemplaar met succes hersteld!</string>
+    <string name="cor">Kleur</string>
+    <string name="cor_disciplina_descricao">Kies een kleur aan dit onderwerp te vertegenwoordigen</string>
+    <string name="cor_fundo">Achtergrondkleur</string>
+    <string name="cores">Kleuren</string>
+    <string name="cores_das_disciplinas">Kleur van de vakken</string>
+    <string name="cores_das_disciplinas_descricao">Opmerking: De kleuren van de onderwerpen kan door het uitgeven vakken worden gewijzigd.</string>
+    <string name="cores_eventos">Kleuren van de gebeurtenissen</string>
+    <string name="cores_personalizadas">Aangepaste kleuren</string>
+    <string name="criar_copia_dados">Maak een kopie van de data</string>
+    <string name="criar_copia_dados_descricao">"Maakt een kopie van de gegevens van de Vakken, Lesrooster, Rapportcijfers, Gebeurtenissen... Waarschuwing: De foto's van de gebeurtenissen zijn niet in deze kopie opgeslagen."</string>
+    <string name="dados">Gegevens</string>
+    <string name="dados_excluidos">Alle gegevens werden verwijderd!</string>
+    <string name="data">Datum</string>
+    <string name="desativar_lembrete">Wilt u de herinnering voor deze gebeurtenis uitschakelen?</string>
+    <string name="descricao">Beschrijving</string>
+    <string name="descricao_hint">Indien gewenst, schrijf hier informatie over de gebeurtenis.</string>
+    <string name="descricao_nota_hint">Indien gewenst, schrijf hier informatie over het rapportcijfer. Bijv. datum, inhoud van examen.</string>
+    <string name="deseja_deletar_tudo">Echt alle gegevens wilt verwijderen?</string>
+    <string name="deseja_excluir">Weet u zeker dat u wilt verwijderen?</string>
+    <string name="deseja_restaurar">Wil je echt om dit exemplaar te herstellen? Alle huidige gegevens worden overschreven!</string>
+    <string name="devolver_livro">Boek terugbrengen</string>
+    <string name="dia">Dag</string>
+    <string name="dia_semana">Dag van de week</string>
+    <string name="dias_semana">Dagen van de week</string>
+    <string name="disciplina">Vak</string>
+    <string name="disciplina_atualizada">Vak bijgewerkt</string>
+    <string name="disciplina_salva">Vak opgeslagen</string>
+    <string name="disciplinas">Vakken</string>
+    <string name="disponivel_apenas_versao_pro">Alleen beschikbaar in de Pro-versie</string>
+    <string name="dom">Zo</string>
+    <string name="editar">Bewerken</string>
+    <string name="email_professor">E-mail van leraar</string>
+    <string name="evento_atualizado">Gebeurtenis bijgewerkt</string>
+    <string name="evento_concluido_pergunta">Gebeurtenis afgerond?</string>
+    <string name="evento_pendente_alguns">aanstaande gebeurtenissen</string>
+    <string name="evento_pendente_um">aanstaande gebeurtenis</string>
+    <string name="evento_salvo">Gebeurtenis opgeslagen</string>
+    <string name="eventos">Gebeurtenissen</string>
+    <string name="eventos_pendentes_zero">Geen aanstaande gebeurtenis</string>
+    <string name="excluir">Verwijderen</string>
+    <string name="excluir_todos_dados">Verwijder alle gegevens</string>
+    <string name="excluir_todos_dados_descricao">Wist alle gegevens van de Vakken, Lesrooster, Rapportcijfers, Gebeurtenissen...</string>
+    <string name="exclusao">Verwijderen</string>
+    <string name="exemplo_descricao_nota">bijv. Examen, Klaswerk, Huiswerk.</string>
+    <string name="fim">Einde</string>
+    <string name="frase_contribua">Uw bijdrage betekent veel. Koop de betaalde versie van de Schoolagenda. Dit zal betekenen het helpen met de ontwikkeling van nieuwe functies en verbeteringen.</string>
+    <string name="hora">Tijd</string>
+    <string name="horario_atualizado">Lesrooster bijgewerkt</string>
+    <string name="horario_salvo">Lesrooster opgeslagen</string>
+    <string name="horarios">Lesrooster</string>
+    <string name="imageDescription">Afbeelding</string>
+    <string name="informe_nome">Voer een naam:</string>
+    <string name="inicio">Start</string>
+    <string name="lembrete">Herinnering</string>
+    <string name="lembrete_nao_config">Herinnering niet ingesteld</string>
+    <string name="lista_copias_criadas">Lijst van gemaakt kopieën</string>
+    <string name="lista_copias_criadas_descricao">Wilt u een kopie gemaakt te herstellen, selecteert u een item uit de lijst hieronder. Let op: alle huidige gegevens gewist en de geselecteerde exemplaar gegevens zullen worden hersteld.</string>
+    <string name="lista_vazia">Lege lijst</string>
+    <string name="media_aritmetica">Rekenkundig gemiddelde</string>
+    <string name="media_ponderada">Gewogen gemiddelde</string>
+    <string name="menu">Menu</string>
+    <string name="menu_settings">Instellingen</string>
+    <string name="nao">Nee</string>
+    <string name="nao_ha_disciplinas">Er zijn geen geregistreerde vakken</string>
+    <string name="nenhuma_nota">Er zijn nog geen geregistreerde rapportcijfers</string>
+    <string name="nome_disciplina">Naam van vak</string>
+    <string name="nome_evento">Naam van gebeurtenis</string>
+    <string name="nome_professor">Naam van leraar</string>
+    <string name="nota">Rapportcijfer</string>
+    <string name="nota_atualizada">Rapportcijfer bijgewerkt</string>
+    <string name="nota_salva">Rapportcijfer opgeslagen</string>
+    <string name="notas">Rapportcijfers</string>
+    <string name="nova_disciplina">Nieuw vak</string>
+    <string name="nova_nota">Nieuw rapportcijfer</string>
+    <string name="novo_evento">Nieuwe gebeurtenis</string>
+    <string name="novo_horario">Nieuw lesrooster</string>
+    <string name="o_que">Wat?</string>
+    <string name="opcional">Optioneel</string>
+    <string name="peso">Gewicht</string>
+    <string name="preciso_cadastrar_disciplinas">U moet eerst een vak registreren</string>
+    <string name="preencher_campos_destacados">Schrijf de gemarkeerde velden</string>
+    <string name="prova">Examen</string>
+    <string name="qua">Wo</string>
+    <string name="qui">Do</string>
+    <string name="restaurar_padrao">Wilt terugkeren naar de standaardwaarden?</string>
+    <string name="sab">Za</string>
+    <string name="sala">Lokaal</string>
+    <string name="salvar">Opslaan</string>
+    <string name="seg">Ma</string>
+    <string name="selecione_disciplina">Selecteer een vak</string>
+    <string name="selecione_uma_cor">SELECTEER EEN KLEUR</string>
+    <string name="semana">Week</string>
+    <string name="sex">Vr</string>
+    <string name="sim">Ja</string>
+    <string name="sobre">Over</string>
+    <string name="sobre_frase">"Auteurs:
+Claudivan de Carvalho
+Izaias Araujo
+
+Acknowledgments:
+MSc. Júnio César de Lima
+IFGoiano - Urutaí
+
+Clawdyvan@gmail.com"</string>
+    <string name="soma">Zo</string>
+    <string name="ter">Di</string>
+    <string name="tipo_evento">Soort gebeurtenis</string>
+    <string name="title_activity_visualizacao_foto">Foto bekijken</string>
+    <string name="titulo">Titel</string>
+    <string name="todos_eventos">Alle gebeurtenissen</string>
+    <string name="toque_editar">Tik nogmaals om te bewerken</string>
+    <string name="toque_tirar_foto">Tik op het scherm om de foto te nemen</string>
+    <string name="trabalho">Klaswerk/Huiswerk</string>
+    <string name="visor_calendario" formatted="false">%s %d</string>
+    <string name="visor_dia" formatted="false">%s, %d %s</string>
+    <string name="visor_semana" formatted="false">Week %d, %04d</string>
+</resources>

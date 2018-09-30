@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/RelativeLayout1" android:background="#ff2980b9" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/linearLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/btDisciplinas" android:layout_width="135.0dip" android:layout_height="135.0dip" android:layout_margin="3.0dip">
+                <ImageView android:layout_width="85.0dip" android:layout_height="85.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/ic_disciplinas" android:contentDescription="@string/imageDescription" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center_horizontal" android:background="@drawable/text_background_shape_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100.0dip" android:text="@string/disciplinas" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/btHorarios" android:layout_width="135.0dip" android:layout_height="135.0dip" android:layout_margin="3.0dip">
+                <ImageView android:layout_width="85.0dip" android:layout_height="85.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/ic_horario" android:contentDescription="@string/imageDescription" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center_horizontal" android:background="@drawable/text_background_shape_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100.0dip" android:text="@string/horarios" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/btEventos" android:layout_width="135.0dip" android:layout_height="135.0dip" android:layout_margin="3.0dip">
+                <ImageView android:layout_width="85.0dip" android:layout_height="85.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/ic_eventos" android:contentDescription="@string/imageDescription" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center_horizontal" android:background="@drawable/text_background_shape_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100.0dip" android:text="@string/eventos" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/btNotas" android:layout_width="135.0dip" android:layout_height="135.0dip" android:layout_margin="3.0dip">
+                <ImageView android:paddingBottom="1.0dip" android:layout_width="85.0dip" android:layout_height="85.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/ic_notas" android:contentDescription="@string/imageDescription" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center_horizontal" android:background="@drawable/text_background_shape_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100.0dip" android:text="@string/notas" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="right|center" android:id="@id/barraOpcoes" android:background="#ff34495e" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/btDados" android:background="#ffd9dbff" android:layout_width="70.0dip" android:layout_height="46.0dip">
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff8e44ad" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dados" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/btCores" android:background="#ffd74609" android:layout_width="70.0dip" android:layout_height="46.0dip">
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cores" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/btPro" android:background="#ff1abc9c" android:visibility="visible" android:layout_width="70.0dip" android:layout_height="46.0dip">
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ff34495e" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Pro" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/btSobre" android:background="#ffe67e22" android:layout_width="70.0dip" android:layout_height="46.0dip">
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sobre" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

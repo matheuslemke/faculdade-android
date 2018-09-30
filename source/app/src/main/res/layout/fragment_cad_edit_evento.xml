@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/LinearLayout1" android:background="#ff2980b9" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/llCadEditEvento" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" card_view:cardCornerRadius="4.0dip" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+                <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip">
+                    <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center_horizontal" android:id="@id/tvTipo" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <TextView android:id="@id/tvTitulo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nome_evento" />
+                    <EditText android:id="@id/etTitulo" android:background="@drawable/abc_edit_text_material" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textCapWords" />
+                    <TableLayout android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TableRow android:gravity="center_horizontal" android:id="@id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <TextView android:id="@id/tvData" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/data" />
+                            <TextView android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hora" />
+                        </TableRow>
+                        <TableRow android:gravity="center_horizontal" android:id="@id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <Button android:id="@id/btData" android:background="@drawable/abc_edit_text_material" android:layout_width="160.0dip" android:layout_height="35.0dip" android:hint="@string/data" android:onClick="btDataOnClick" style="?android:attr/buttonStyleSmall" />
+                            <Button android:id="@id/btHora" android:background="@drawable/abc_edit_text_material" android:layout_width="90.0dip" android:layout_height="35.0dip" android:hint="@string/opcional" android:onClick="btHoraOnClick" style="?android:attr/buttonStyleSmall" />
+                        </TableRow>
+                    </TableLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" card_view:cardCornerRadius="4.0dip" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+                <LinearLayout android:orientation="vertical" android:id="@id/linearLayout1" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip">
+                    <TextView android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/descricao" />
+                    <EditText android:textSize="15.0dip" android:gravity="top" android:id="@id/etDescricao" android:background="@drawable/abc_edit_text_material" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/descricao_hint" android:inputType="textCapSentences|textMultiLine" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" card_view:cardCornerRadius="4.0dip" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+                <LinearLayout android:orientation="vertical" android:id="@id/linearLayout2" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip">
+                    <Button android:id="@id/btFoto" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btFoto" android:hint="@string/btFoto" android:drawableLeft="@drawable/ic_menu_camera" android:onClick="btFotoOnClick" style="?android:attr/buttonStyleSmall" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" card_view:cardCornerRadius="4.0dip" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+                <LinearLayout android:orientation="vertical" android:id="@id/linearLayout3" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip">
+                    <TextView android:id="@id/textView1" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lembrete" />
+                    <LinearLayout android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageButton android:id="@id/imbLembrete" android:tag="+" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/ic_input_add" android:onClick="imbLembreteOnClick" android:contentDescription="@string/imageDescription" />
+                        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                            <Button android:id="@id/btDataLembrete" android:background="@drawable/abc_edit_text_material" android:visibility="invisible" android:layout_width="136.0dip" android:layout_height="35.0dip" android:hint="@string/data" android:onClick="btDataLembreteOnClick" style="?android:attr/buttonStyleSmall" />
+                            <Button android:id="@id/btHoraLembrete" android:background="@drawable/abc_edit_text_material" android:visibility="invisible" android:layout_width="76.0dip" android:layout_height="35.0dip" android:hint="@string/hora" android:onClick="btHoraLembreteOnClick" style="?android:attr/buttonStyleSmall" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/linearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff404040" android:id="@id/btLeft" android:background="@drawable/buttom_clean_selector" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_weight="0.5" />
+        <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff404040" android:id="@id/btRight" android:background="@drawable/buttom_clean_selector" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_weight="0.5" />
+    </LinearLayout>
+</LinearLayout>

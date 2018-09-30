@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/cabecalho_alternator" />
+    <include layout="@layout/tab_semana_gv_horarios" />
+    <Button android:textSize="15.0sp" android:textColor="#ff404040" android:id="@id/btEventosSemana" android:background="@drawable/buttom_clean_selector" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+</LinearLayout>

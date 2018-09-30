@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="layout_container_fragments">@layout/activity_container_fragments_tablet</item>
+    <item type="layout" name="tab_calendario_layout">@layout/fragment_tab_calendario_tablet_land</item>
+    <item type="layout" name="tab_dia_layout">@layout/fragment_tab_dia_tablet_land</item>
+    <item type="layout" name="tab_semana_layout">@layout/fragment_tab_semana_tablet_land</item>
+</resources>

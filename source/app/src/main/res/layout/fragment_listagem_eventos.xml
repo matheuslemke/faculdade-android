@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/RelativeLayout1" android:background="#ff2980b9" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@id/custom_actionbar" android:background="@drawable/dot_actionbar" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff404040" android:id="@id/tvTitulo" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/nenhum_evento" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/btNovoEvento" android:layout_below="@id/custom_actionbar" android:layout_alignParentLeft="true" android:layout_alignParentRight="true">
+        <ImageView android:layout_width="200.0dip" android:layout_height="200.0dip" android:src="@drawable/ic_no_eventos" />
+        <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/tvSemEventos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/eventos_pendentes_zero" />
+    </LinearLayout>
+    <ListView android:id="@id/lvListaEventos" android:paddingLeft="5.0dip" android:paddingTop="10.0dip" android:paddingRight="5.0dip" android:paddingBottom="10.0dip" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@android:color/transparent" android:dividerHeight="1.0dip" android:layout_above="@id/btNovoEvento" android:layout_below="@id/custom_actionbar" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" />
+    <LinearLayout android:gravity="center" android:id="@id/btNovoEvento" android:background="@drawable/buttom_clean_selector" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:onClick="btNovoEventoOnClick">
+        <ImageView android:id="@id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_input_add" android:contentDescription="@string/imageDescription" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff404040" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/novo_evento" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ads="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.view.ViewPager android:id="@id/tabcontent" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <LinearLayout android:gravity="right" android:id="@id/proMensagem" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="35.0dip">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffef8e16" android:gravity="right|center" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Pro" />
+    </LinearLayout>
+</LinearLayout>

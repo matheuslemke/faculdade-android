@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:padding="15.0dip" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/container_cores" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </ScrollView>
+    <include layout="@layout/divisor" />
+    <TextView android:textColor="@color/cinza_escuro_texto_2015_1" android:gravity="center" android:id="@id/coresPersonalizadas" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/cores_personalizadas" />
+</LinearLayout>

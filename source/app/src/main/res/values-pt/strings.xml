@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navegar para a página inicial</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Navegar para cima</string>
+    <string name="abc_action_menu_overflow_description">Mais opções</string>
+    <string name="abc_action_mode_done">Concluído</string>
+    <string name="abc_activity_chooser_view_see_all">Ver tudo</string>
+    <string name="abc_activitychooserview_choose_application">Selecione um app</string>
+    <string name="abc_searchview_description_clear">Limpar consulta</string>
+    <string name="abc_searchview_description_query">Consulta de pesquisa</string>
+    <string name="abc_searchview_description_search">Pesquisar</string>
+    <string name="abc_searchview_description_submit">Enviar consulta</string>
+    <string name="abc_searchview_description_voice">Pesquisa por voz</string>
+    <string name="abc_shareactionprovider_share_with">Compartilhar com</string>
+    <string name="abc_shareactionprovider_share_with_application">Compartilhar com %s</string>
+    <string name="abreviacao">Abreviação</string>
+    <string name="abreviacao_exemplo">Ex.: A abreviação de Biologia poderia ser Bio.</string>
+    <string name="app_name">Agenda do Estudante</string>
+    <string name="app_name_pro">Agenda do Estudante Pro</string>
+    <string name="atividade">Atividade</string>
+    <string name="aviso_backup_deletar_tudo">• Caso queira excluir todos os dados do aplicativo, use esta funcionalidade.</string>
+    <string name="aviso_backup_descricao">Esta funcionalidade pode ser útil nas seguintes situações:</string>
+    <string name="aviso_backup_upgrated_pro">• Caso você tenha feito um upgrade para a Agenda do Estudante Pro e queira copiar os dados da versão gratuita, use esta funcionalidade.</string>
+    <string name="btFoto">Foto</string>
+    <string name="calendario">Calendário</string>
+    <string name="camera_indisponivel">Câmera indisponível</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="cartao_indisponivel">Cartão de memória indisponível</string>
+    <string name="comprar">Comprar</string>
+    <string name="continuar">Continuar</string>
+    <string name="copia_dados_anteriores_criada">Uma cópia dos dados anteriores foi salva em %s. Assim, é possível fazer uma restauração caso seja necessário.</string>
+    <string name="copia_dados_salva">Uma cópia dos dados foi salva em %s. Assim, é possível fazer uma restauração caso seja necessário.</string>
+    <string name="copia_restaurada">Cópia restaurada com sucesso!</string>
+    <string name="cor">Cor</string>
+    <string name="cor_disciplina_descricao">Escolha uma cor para representar esta disciplina</string>
+    <string name="cor_fundo">Cor de fundo</string>
+    <string name="cores">Cores</string>
+    <string name="cores_das_disciplinas">Cores das disciplinas</string>
+    <string name="cores_das_disciplinas_descricao">Nota: As cores das disciplinas podem ser alteradas editando as disciplinas nas quais se deseja alterar a cor.</string>
+    <string name="cores_eventos">Cores dos eventos</string>
+    <string name="cores_personalizadas">Cores personalizadas</string>
+    <string name="criar_copia_dados">Criar cópia dos dados</string>
+    <string name="criar_copia_dados_descricao">Cria uma cópia dos dados de disciplinas, horários, notas, eventos...Atenção: As fotos dos eventos não são salvas nesta cópia.</string>
+    <string name="dados">Dados</string>
+    <string name="dados_excluidos">Todos os dados foram excluídos!</string>
+    <string name="data">Data</string>
+    <string name="desativar_lembrete">Deseja desativar o lembrete deste evento?</string>
+    <string name="descricao">Descrição</string>
+    <string name="descricao_hint">Informe aqui, caso necessário, qualquer informação relevante ao evento.</string>
+    <string name="descricao_nota_hint">Informe aqui, caso necessário, qualquer informação relevante sobre a nota. Ex.: valor da prova, assunto da prova, data.</string>
+    <string name="deseja_deletar_tudo">Deseja realmente excluir todos os dados?</string>
+    <string name="deseja_excluir">Deseja realmente excluir</string>
+    <string name="deseja_restaurar">Deseja realmente restaurar esta cópia? Todos os dados atuais serão substituídos!</string>
+    <string name="devolver_livro">Devolução de Livro</string>
+    <string name="dia">Dia</string>
+    <string name="dia_semana">Dia da semana</string>
+    <string name="dias_semana">Dias da semana</string>
+    <string name="disciplina">Disciplina</string>
+    <string name="disciplina_atualizada">Disciplina atualizada</string>
+    <string name="disciplina_salva">Disciplina salva</string>
+    <string name="disciplinas">Disciplinas</string>
+    <string name="disponivel_apenas_versao_pro">Disponível apenas na versão Pro</string>
+    <string name="dom">dom</string>
+    <string name="editar">Editar</string>
+    <string name="email_professor">E-mail do professor</string>
+    <string name="evento_atualizado">Evento atualizado</string>
+    <string name="evento_concluido_pergunta">Evento concluído?</string>
+    <string name="evento_pendente_alguns">eventos pendentes</string>
+    <string name="evento_pendente_um">evento pendente</string>
+    <string name="evento_salvo">Evento salvo</string>
+    <string name="eventos">Eventos</string>
+    <string name="eventos_pendentes_zero">Nenhum evento pendente</string>
+    <string name="excluir">Excluir</string>
+    <string name="excluir_todos_dados">Excluir todos os dados</string>
+    <string name="excluir_todos_dados_descricao">Exclui todos os dados de disciplinas, horários, notas, eventos...</string>
+    <string name="exclusao">Exclusão</string>
+    <string name="exemplo_descricao_nota">Ex.: Prova, Trabalho, Seminário, Exercícios.</string>
+    <string name="fim">Fim</string>
+    <string name="frase_contribua">Sua contribuição significa muito. Comprando a versão paga da Agenda do Estudante, você estará ajudando no desenvolvimento de novas funcionalidades e melhorias.</string>
+    <string name="hora">Hora</string>
+    <string name="horario_atualizado">Horário atualizado</string>
+    <string name="horario_salvo">Horário salvo</string>
+    <string name="horarios">Horários</string>
+    <string name="imageDescription">Image</string>
+    <string name="informe_nome">Informe um nome:</string>
+    <string name="inicio">Início</string>
+    <string name="lembrete">Lembrete</string>
+    <string name="lembrete_nao_config">Lembrete não configurado</string>
+    <string name="lista_copias_criadas">Lista de cópias criadas</string>
+    <string name="lista_copias_criadas_descricao">Caso queira restaurar uma cópia criada, selecione um item da lista abaixo. Atenção: todos os dados atuais serão excluídos e os dados da cópia selecionada serão restaurados.</string>
+    <string name="lista_vazia">Lista vazia</string>
+    <string name="media_aritmetica">Média Aritmética</string>
+    <string name="media_ponderada">Média Ponderada</string>
+    <string name="menu">Menu</string>
+    <string name="menu_settings">Settings</string>
+    <string name="nao">Não</string>
+    <string name="nao_ha_disciplinas">Não há disciplinas cadastradas</string>
+    <string name="nenhuma_nota">Nenhuma nota cadastrada ainda</string>
+    <string name="nome_disciplina">Nome da disciplina</string>
+    <string name="nome_evento">Nome do evento</string>
+    <string name="nome_professor">Nome do professor</string>
+    <string name="nota">Nota</string>
+    <string name="nota_atualizada">Nota atualizada</string>
+    <string name="nota_salva">Nota salva</string>
+    <string name="notas">Notas</string>
+    <string name="nova_disciplina">Nova disciplina</string>
+    <string name="nova_nota">Nova nota</string>
+    <string name="novo_evento">Novo evento</string>
+    <string name="novo_horario">Novo horário</string>
+    <string name="o_que">O que?</string>
+    <string name="opcional">Opcional</string>
+    <string name="peso">Peso</string>
+    <string name="preciso_cadastrar_disciplinas">É preciso cadastrar disciplinas primeiro</string>
+    <string name="preencher_campos_destacados">Preencha os campos destacados</string>
+    <string name="prova">Prova</string>
+    <string name="qua">qua</string>
+    <string name="qui">qui</string>
+    <string name="restaurar_padrao">Deseja restaurar para o padrão?</string>
+    <string name="sab">sáb</string>
+    <string name="sala">Sala</string>
+    <string name="salvar">Salvar</string>
+    <string name="seg">seg</string>
+    <string name="selecione_disciplina">Selecione uma disciplina</string>
+    <string name="selecione_uma_cor">SELECIONE UMA COR</string>
+    <string name="semana">Semana</string>
+    <string name="sex">sex</string>
+    <string name="sim">Sim</string>
+    <string name="sobre">Sobre</string>
+    <string name="sobre_frase">"Autores:
+Claudivan de Carvalho
+Izaias Araújo
+
+Orientação:
+Me. Júnio César de Lima
+Apoio:
+IFGoiano - Urutaí
+
+Clawdyvan@gmail.com"</string>
+    <string name="soma">Soma</string>
+    <string name="ter">ter</string>
+    <string name="tipo_evento">Tipo de Evento</string>
+    <string name="title_activity_visualizacao_foto">Foto</string>
+    <string name="titulo">Título</string>
+    <string name="todos_eventos">Todos os Eventos</string>
+    <string name="toque_editar">Toque novamente para editar</string>
+    <string name="toque_tirar_foto">Toque a tela para tirar a foto</string>
+    <string name="trabalho">Trabalho/Tarefa</string>
+    <string name="visor_calendario" formatted="false">%s %d</string>
+    <string name="visor_dia" formatted="false">%s, %d de %s</string>
+    <string name="visor_semana" formatted="false">Semana %d, %04d</string>
+</resources>

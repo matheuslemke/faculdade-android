@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/LinearLayout1" android:background="#ff2980b9" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/linearLayout2a" android:background="@drawable/clean_style" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip">
+                <TextView android:id="@id/tvDiaSemana" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dia_semana" />
+                <EditText android:id="@id/etDiaSemana" android:background="@drawable/apptheme_edit_text_holo_light" android:focusable="false" android:focusableInTouchMode="false" android:longClickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="none" android:onClick="etDiaSemanaOnClick" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/linearLayout2x" android:background="@drawable/clean_style" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip">
+                <TextView android:id="@id/tvDisciplina" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/disciplina" />
+                <EditText android:id="@id/etDisciplina" android:background="@drawable/apptheme_edit_text_holo_light" android:focusable="false" android:focusableInTouchMode="false" android:longClickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="none" android:onClick="etDisciplinaOnClick" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/linearLayout2b" android:background="@drawable/clean_style" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip">
+                <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TableRow android:id="@id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:id="@id/tvInicio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/inicio" />
+                        <TextView android:id="@id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fim" />
+                    </TableRow>
+                    <TableRow android:id="@id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <Button android:id="@id/btInicio" android:background="@drawable/apptheme_edit_text_holo_light" android:layout_width="100.0dip" android:layout_height="35.0dip" android:onClick="btInicioOnClick" style="?android:attr/buttonStyleSmall" />
+                        <Button android:id="@id/btFim" android:background="@drawable/apptheme_edit_text_holo_light" android:layout_width="100.0dip" android:layout_height="35.0dip" android:hint="@string/opcional" android:onClick="btFimOnClick" style="?android:attr/buttonStyleSmall" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/linearLayout2" android:background="@drawable/clean_style" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip">
+                <TextView android:id="@id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_span="2" android:text="@string/sala" />
+                <EditText android:id="@id/etSala" android:background="@drawable/apptheme_edit_text_holo_light" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_span="2" android:hint="@string/opcional" android:ems="10" android:inputType="textCapWords" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/linearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff404040" android:id="@id/btLeft" android:background="@drawable/buttom_clean_selector" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_weight="0.5" />
+        <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff404040" android:id="@id/btRight" android:background="@drawable/buttom_clean_selector" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_weight="0.5" />
+    </LinearLayout>
+</LinearLayout>

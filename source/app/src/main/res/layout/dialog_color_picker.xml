@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff323232" android:gravity="center_horizontal" android:id="@id/titulo" android:visibility="gone" android:layout_width="290.0dip" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" />
+    <RelativeLayout android:paddingLeft="16.0dip" android:paddingTop="5.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.clawdyvan.agendaestudantepro.CustomViews.ColorPicker.ColorPickerView android:id="@id/color_picker_view" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/containerAntesDepois" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:layout_below="@id/color_picker_view" android:layout_alignLeft="@id/color_picker_view" android:layout_alignRight="@id/color_picker_view">
+            <com.clawdyvan.agendaestudantepro.CustomViews.ColorPicker.ColorPanelView android:id="@id/color_panel_old" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="0.5" />
+            <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="→" />
+            <com.clawdyvan.agendaestudantepro.CustomViews.ColorPicker.ColorPanelView android:id="@id/color_panel_new" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="0.5" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/container_botoes" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="45.0dip">
+            <TextView android:textStyle="bold" android:textColor="#ff323232" android:gravity="center" android:id="@id/botao_esquerda" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <View android:id="@id/divider_botoes" android:background="#ff000000" android:visibility="gone" android:layout_width="1.0px" android:layout_height="30.0dip" />
+            <TextView android:textStyle="bold" android:textColor="#ff323232" android:gravity="center" android:id="@id/botao_direita" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

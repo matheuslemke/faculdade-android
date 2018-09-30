@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">"Revenir à l'accueil"</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Revenir en haut de la page</string>
+    <string name="abc_action_menu_overflow_description">"Plus d'options"</string>
+    <string name="abc_action_mode_done">OK</string>
+    <string name="abc_activity_chooser_view_see_all">Tout afficher</string>
+    <string name="abc_activitychooserview_choose_application">Sélectionner une application</string>
+    <string name="abc_searchview_description_clear">Effacer la requête</string>
+    <string name="abc_searchview_description_query">Requête de recherche</string>
+    <string name="abc_searchview_description_search">Rechercher</string>
+    <string name="abc_searchview_description_submit">Envoyer la requête</string>
+    <string name="abc_searchview_description_voice">Recherche vocale</string>
+    <string name="abc_shareactionprovider_share_with">Partager avec</string>
+    <string name="abc_shareactionprovider_share_with_application">Partager avec %s</string>
+    <string name="abreviacao">Abréviation</string>
+    <string name="abreviacao_exemplo">"ex: Biologie peut s'abréger en bio."</string>
+    <string name="app_name">Agenda étudiant</string>
+    <string name="app_name_pro">Agenda étudiant Pro</string>
+    <string name="atividade">Activité</string>
+    <string name="aviso_backup_deletar_tudo">"• Si vous voulez supprimer toutes les données d'application, utiliser cette fonction."</string>
+    <string name="aviso_backup_descricao">Cette fonction peut être utile dans les situations suivantes:</string>
+    <string name="aviso_backup_upgrated_pro">"• Si vous avez mis à l'ordre du Agenda étudiant Pro et que vous voulez copier les données de la version gratuite, utiliser cette fonction."</string>
+    <string name="btFoto">Photo</string>
+    <string name="calendario">Calendrier</string>
+    <string name="camera_indisponivel">Appareil-photo non disponible</string>
+    <string name="cancelar">Annuler</string>
+    <string name="cartao_indisponivel">Carte SD non disponible</string>
+    <string name="comprar">Acheter</string>
+    <string name="continuar">Continuer</string>
+    <string name="copia_dados_anteriores_criada">Une copie des données précédentes a été enregistré à %s. Ainsi, il est possible de faire une récupération si nécessaire.</string>
+    <string name="copia_dados_salva">Une copie des données a été enregistré à %s. Ainsi, il est possible de faire une récupération si nécessaire.</string>
+    <string name="copia_restaurada">Copie restaurée avec succès!</string>
+    <string name="cor">Couleur</string>
+    <string name="cor_disciplina_descricao">Choisissez une couleur pour représenter ce sujet</string>
+    <string name="cor_fundo">Couleur de fond</string>
+    <string name="cores">Couleurs</string>
+    <string name="cores_das_disciplinas">Couleur des sujets</string>
+    <string name="cores_das_disciplinas_descricao">Remarque: Les couleurs des sujets peuvent être modifiées en éditant les sujets dont vous souhaitez modifier la couleur.</string>
+    <string name="cores_eventos">"Couleurs d'événements"</string>
+    <string name="cores_personalizadas">Couleurs personnalisées</string>
+    <string name="criar_copia_dados">Créer une copie des données</string>
+    <string name="criar_copia_dados_descricao">Crée une copie des données de sujets, emploi du temps, marque-pages, événements ... Avertissement: Les photos des événements ne sont pas enregistrés dans cette copie.</string>
+    <string name="dados">Données</string>
+    <string name="dados_excluidos">Toutes les données ont été supprimées!</string>
+    <string name="data">Date</string>
+    <string name="desativar_lembrete">Désactiver le rappel pour cet événement?</string>
+    <string name="descricao">Description</string>
+    <string name="descricao_hint">"Si vous le souhaitez, vous pouvez écrire ici des informations sur l'événement."</string>
+    <string name="descricao_nota_hint">"Si vous le souhaitez, vous pouvez écrire ici des informations sur le marque-page. Ex: date, sujet de l'examen."</string>
+    <string name="deseja_deletar_tudo">Vraiment envie de supprimer toutes les données?</string>
+    <string name="deseja_excluir">Confirmer la suppression?</string>
+    <string name="deseja_restaurar">Voulez-vous vraiment restaurer cette copie? Toutes les données actuelles seront remplacées!</string>
+    <string name="devolver_livro">Rendre livre</string>
+    <string name="dia">Jour</string>
+    <string name="dia_semana">Jour de la semaine</string>
+    <string name="dias_semana">Jours de la semaine</string>
+    <string name="disciplina">Sujet</string>
+    <string name="disciplina_atualizada">Sujet actualisé</string>
+    <string name="disciplina_salva">Sujet sauvegardé</string>
+    <string name="disciplinas">Sujets</string>
+    <string name="disponivel_apenas_versao_pro">Disponible uniquement dans la version Pro</string>
+    <string name="dom">Dim</string>
+    <string name="editar">Modifier</string>
+    <string name="email_professor">"Courriel de l'enseignant"</string>
+    <string name="evento_atualizado">Événement actualisé</string>
+    <string name="evento_concluido_pergunta">Événement terminé?</string>
+    <string name="evento_pendente_alguns">événements programmés</string>
+    <string name="evento_pendente_um">événement programmé</string>
+    <string name="evento_salvo">Événement sauvegardé</string>
+    <string name="eventos">Événements</string>
+    <string name="eventos_pendentes_zero">Aucun événement programmé</string>
+    <string name="excluir">Supprimer</string>
+    <string name="excluir_todos_dados">Supprimer toutes les données</string>
+    <string name="excluir_todos_dados_descricao">Supprime toutes les données de sujets, emploi du temps, marque-pages, événements...</string>
+    <string name="exclusao">Supprimer</string>
+    <string name="exemplo_descricao_nota">ex: examen, cours, devoirs</string>
+    <string name="fim">Fin</string>
+    <string name="frase_contribua">Votre contribution signifie beaucoup. Acheter la version payante de Agenda étudiant, vous aiderez au développement de nouvelles fonctionnalités et améliorations.</string>
+    <string name="hora">Heure</string>
+    <string name="horario_atualizado">Emploi du temps actualisé</string>
+    <string name="horario_salvo">Emploi du temps sauvegardé</string>
+    <string name="horarios">Emploi du temps</string>
+    <string name="imageDescription">Image</string>
+    <string name="informe_nome">Saisir un nom:</string>
+    <string name="inicio">Début</string>
+    <string name="lembrete">Rappel</string>
+    <string name="lembrete_nao_config">Rappel non configuré</string>
+    <string name="lista_copias_criadas">Liste des copies créées</string>
+    <string name="lista_copias_criadas_descricao">Si vous souhaitez restaurer une copie créé, sélectionnez un élément dans la liste ci-dessous. Se il vous plaît noter: toutes les données actuelles seront supprimées et les données de copie sélectionnés seront restaurés.</string>
+    <string name="lista_vazia">Liste vide</string>
+    <string name="media_aritmetica">Moyenne arithmétique</string>
+    <string name="media_ponderada">Moyenne pondérée</string>
+    <string name="menu">Menu</string>
+    <string name="menu_settings">Paramètres</string>
+    <string name="nao">Non</string>
+    <string name="nao_ha_disciplinas">Aucun sujet enregistré</string>
+    <string name="nenhuma_nota">Aucun marque-page enregistré</string>
+    <string name="nome_disciplina">Nom de sujet</string>
+    <string name="nome_evento">"Nom de l'événement"</string>
+    <string name="nome_professor">"Nom de l'enseignant"</string>
+    <string name="nota">Marque-page</string>
+    <string name="nota_atualizada">Marque-page actualisé</string>
+    <string name="nota_salva">Marque-page sauvegardé</string>
+    <string name="notas">Marque-pages</string>
+    <string name="nova_disciplina">Nouveau sujet</string>
+    <string name="nova_nota">Nouveau marque-page</string>
+    <string name="novo_evento">Nouvel événement</string>
+    <string name="novo_horario">Nouvel emploi du temps</string>
+    <string name="o_que">Quoi?</string>
+    <string name="opcional">En option</string>
+    <string name="peso">Poids</string>
+    <string name="preciso_cadastrar_disciplinas">"Vous devez d'abord enregistrer un sujet"</string>
+    <string name="preencher_campos_destacados">Les champs en surbrillance sont obligatoires</string>
+    <string name="prova">Examen</string>
+    <string name="qua">Mer</string>
+    <string name="qui">Jeu</string>
+    <string name="restaurar_padrao">Vous voulez restaurer par défaut?</string>
+    <string name="sab">Sam</string>
+    <string name="sala">Salle</string>
+    <string name="salvar">Sauvegarder</string>
+    <string name="seg">Lun</string>
+    <string name="selecione_disciplina">Choisir un sujet</string>
+    <string name="selecione_uma_cor">SÉLECTIONNEZ UNE COULEUR</string>
+    <string name="semana">Semaine</string>
+    <string name="sex">Ven</string>
+    <string name="sim">Oui</string>
+    <string name="sobre">À propos</string>
+    <string name="sobre_frase">"Auteurs:
+Claudivan de Carvalho
+Izaias Araujo
+
+Remerciements:
+MSc. Júnio César de Lima
+IFGoiano - Urutaí
+
+Clawdyvan@gmail.com"</string>
+    <string name="soma">Dim</string>
+    <string name="ter">Mar</string>
+    <string name="tipo_evento">"Type d'événement"</string>
+    <string name="title_activity_visualizacao_foto">Afficher photo</string>
+    <string name="titulo">Titre</string>
+    <string name="todos_eventos">Tous les événements</string>
+    <string name="toque_editar">Appuyer de nouveau pour modifier</string>
+    <string name="toque_tirar_foto">"Touchez l'écran pour prendre la photo"</string>
+    <string name="trabalho">Cours/devoirs</string>
+    <string name="visor_calendario" formatted="false">%s %d</string>
+    <string name="visor_dia" formatted="false">%s, %d %s</string>
+    <string name="visor_semana" formatted="false">Semaine %d, %04d</string>
+</resources>

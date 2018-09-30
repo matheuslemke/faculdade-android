@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/cinza_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.2">
+        <LinearLayout android:orientation="vertical" android:id="@id/container_fragments" android:background="@drawable/dropshadow" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.5" />
+    </LinearLayout>
+</LinearLayout>

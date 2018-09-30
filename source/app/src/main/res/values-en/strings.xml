@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abreviacao">Shortened Form</string>
+    <string name="abreviacao_exemplo">e.g. One possible shortened form of Biology is Bio.</string>
+    <string name="app_name">Student Agenda</string>
+    <string name="app_name_pro">Student Agenda Pro</string>
+    <string name="atividade">Activity</string>
+    <string name="aviso_backup_deletar_tudo">• If you want to delete all application data, use this feature.</string>
+    <string name="aviso_backup_descricao">This feature can be useful in the following situations:</string>
+    <string name="aviso_backup_upgrated_pro">• If you have upgraded to the Student Agenda Pro and want to copy the data from the free version, use this feature.</string>
+    <string name="btFoto">Picture</string>
+    <string name="calendario">Calendar</string>
+    <string name="camera_indisponivel">Camera unavailable</string>
+    <string name="cancelar">Cancel</string>
+    <string name="cartao_indisponivel">SD card unavailable</string>
+    <string name="comprar">Buy</string>
+    <string name="continuar">Continue</string>
+    <string name="copia_dados_anteriores_criada">A copy of the previous data has been saved to %s. Thus, it is possible to make a recovery if needed.</string>
+    <string name="copia_dados_salva">A copy of the data has been saved to %s. Thus, it is possible to make a recovery if needed.</string>
+    <string name="copia_restaurada">Copy successfully restored!</string>
+    <string name="cor">Color</string>
+    <string name="cor_disciplina_descricao">Choose a color to represent this subject</string>
+    <string name="cor_fundo">Background color</string>
+    <string name="cores">Colors</string>
+    <string name="cores_das_disciplinas">Color of the subjects</string>
+    <string name="cores_das_disciplinas_descricao">Note: The colors of the subjects can be changed by editing the subjects in which you want to change the color.</string>
+    <string name="cores_eventos">Colors of events</string>
+    <string name="cores_personalizadas">Custom colors</string>
+    <string name="criar_copia_dados">Create copy of the data</string>
+    <string name="criar_copia_dados_descricao">Creates a copy of the data of subjects, timetables, marks, events... Warning: The photos of the events are not saved in this copy.</string>
+    <string name="dados">Data</string>
+    <string name="dados_excluidos">All data were deleted!</string>
+    <string name="data">Date</string>
+    <string name="desativar_lembrete">Do you want to turn off the reminder for this event?</string>
+    <string name="descricao">Description</string>
+    <string name="descricao_hint">Should you wish, describe here any information about the event.</string>
+    <string name="descricao_nota_hint">Should you wish, describe here any information concerning the mark. E.g. Date, exam content.</string>
+    <string name="deseja_deletar_tudo">Really want to delete all data?</string>
+    <string name="deseja_excluir">Are you sure you want to delete?</string>
+    <string name="deseja_restaurar">Do you really want to restore this copy? All current data will be overwritten!</string>
+    <string name="devolver_livro">Return book</string>
+    <string name="dia">Day</string>
+    <string name="dia_semana">Day of the week</string>
+    <string name="dias_semana">Days of the week</string>
+    <string name="disciplina">Subject</string>
+    <string name="disciplina_atualizada">Subject updated</string>
+    <string name="disciplina_salva">Subject saved</string>
+    <string name="disciplinas">Subjects</string>
+    <string name="disponivel_apenas_versao_pro">Available only in the Pro version</string>
+    <string name="dom">Sun</string>
+    <string name="editar">Edit</string>
+    <string name="email_professor">"Teacher's email"</string>
+    <string name="evento_atualizado">Event updated</string>
+    <string name="evento_concluido_pergunta">Completed event?</string>
+    <string name="evento_pendente_alguns">pending events</string>
+    <string name="evento_pendente_um">pending event</string>
+    <string name="evento_salvo">Event saved</string>
+    <string name="eventos">Events</string>
+    <string name="eventos_pendentes_zero">No pending event</string>
+    <string name="excluir">Delete</string>
+    <string name="excluir_todos_dados">Delete all data</string>
+    <string name="excluir_todos_dados_descricao">Deletes all data of subjects, timetables, marks, events...</string>
+    <string name="exclusao">Delete</string>
+    <string name="exemplo_descricao_nota">e.g. Exam, Coursework, Homework.</string>
+    <string name="fim">End</string>
+    <string name="frase_contribua">Your contribution means a lot. Buying the paid version of the Student Agenda, you will be helping in the development of new features and improvements.</string>
+    <string name="hora">Time</string>
+    <string name="horario_atualizado">Timetable updated</string>
+    <string name="horario_salvo">Timetable saved</string>
+    <string name="horarios">Timetable</string>
+    <string name="imageDescription">Image</string>
+    <string name="informe_nome">Enter a name:</string>
+    <string name="inicio">Start</string>
+    <string name="lembrete">Reminder</string>
+    <string name="lembrete_nao_config">Reminder not set</string>
+    <string name="lista_copias_criadas">List of created copies</string>
+    <string name="lista_copias_criadas_descricao">If you want to restore a created copy, select an item from the list below. Please note: all current data will be deleted and the selected copy data will be restored.</string>
+    <string name="lista_vazia">Empty list</string>
+    <string name="media_aritmetica">Arithmetic Mean</string>
+    <string name="media_ponderada">Weighted Mean</string>
+    <string name="menu">Menu</string>
+    <string name="menu_settings">Settings</string>
+    <string name="nao">No</string>
+    <string name="nao_ha_disciplinas">There are no registered subjects</string>
+    <string name="nenhuma_nota">There are no registered marks yet</string>
+    <string name="nome_disciplina">Subject name</string>
+    <string name="nome_evento">Event name</string>
+    <string name="nome_professor">"Teacher's name"</string>
+    <string name="nota">Mark</string>
+    <string name="nota_atualizada">Mark updated</string>
+    <string name="nota_salva">Mark saved</string>
+    <string name="notas">Marks</string>
+    <string name="nova_disciplina">New subject</string>
+    <string name="nova_nota">New mark</string>
+    <string name="novo_evento">New Event</string>
+    <string name="novo_horario">New timetable</string>
+    <string name="o_que">What?</string>
+    <string name="opcional">Optional</string>
+    <string name="peso">Weight</string>
+    <string name="preciso_cadastrar_disciplinas">You must first register a subject</string>
+    <string name="preencher_campos_destacados">Write the highlighted fields</string>
+    <string name="prova">Exam</string>
+    <string name="qua">Wed</string>
+    <string name="qui">Thu</string>
+    <string name="restaurar_padrao">Want to restore to default?</string>
+    <string name="sab">Sat</string>
+    <string name="sala">Room</string>
+    <string name="salvar">Save</string>
+    <string name="seg">Mon</string>
+    <string name="selecione_disciplina">Select a subject</string>
+    <string name="selecione_uma_cor">SELECT A COLOR</string>
+    <string name="semana">Week</string>
+    <string name="sex">Fri</string>
+    <string name="sim">Yes</string>
+    <string name="sobre">About</string>
+    <string name="sobre_frase">"Authors:
+Claudivan de Carvalho
+Izaias Araujo
+
+Acknowledgments:
+MSc. Júnio César de Lima
+IFGoiano - Urutaí
+
+Clawdyvan@gmail.com"</string>
+    <string name="soma">Sun</string>
+    <string name="ter">Tue</string>
+    <string name="tipo_evento">Event Type</string>
+    <string name="title_activity_visualizacao_foto">View Picture</string>
+    <string name="titulo">Title</string>
+    <string name="todos_eventos">All Events</string>
+    <string name="toque_editar">Tap again to edit</string>
+    <string name="toque_tirar_foto">Tap the screen to take the picture</string>
+    <string name="trabalho">Coursework/Homework</string>
+    <string name="visor_calendario" formatted="false">%s %d</string>
+    <string name="visor_dia" formatted="false">%s, %d %s</string>
+    <string name="visor_semana" formatted="false">Week %d, %04d</string>
+</resources>

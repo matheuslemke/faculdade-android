@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.clawdyvan.agendaestudantepro" platformBuildVersionCode="21" platformBuildVersionName="5.0.1-1624448">
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher_pro" android:label="@string/app_name_pro" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name_pro" android:name="com.clawdyvan.agendaestudantepro.Activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.clawdyvan.agendaestudantepro.Activities.CameraActivity" android:screenOrientation="landscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:label="@string/title_activity_visualizacao_foto" android:name="com.clawdyvan.agendaestudantepro.Activities.VisualizacaoFotoActivity" android:screenOrientation="landscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <receiver android:name="com.clawdyvan.agendaestudantepro.Util.AlarmReceiver">
+            <intent-filter>
+                <action android:name="com.clawdyvan.agendaestudantepro"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.clawdyvan.agendaestudantepro.Util.ReceiverReativaAlarmReboot">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:label="@string/title_activity_container_fragments" android:name="com.clawdyvan.agendaestudantepro.Activities.ContainerFragmentsActivity"/>
+    </application>
+</manifest>

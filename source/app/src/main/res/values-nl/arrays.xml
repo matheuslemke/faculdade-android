@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="abrev_dias_semana">
+        <item>Zo</item>
+        <item>Ma</item>
+        <item>Di</item>
+        <item>Wo</item>
+        <item>Do</item>
+        <item>Vr</item>
+        <item>Za</item>
+    </string-array>
+    <string-array name="abrev_meses">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Maa</item>
+        <item>Apr</item>
+        <item>Mei</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Okt</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="diasSemana">
+        <item>Zondag</item>
+        <item>Maandag</item>
+        <item>Dinsdag</item>
+        <item>Woensdag</item>
+        <item>Donderdag</item>
+        <item>Vrijdag</item>
+        <item>Zaterdag</item>
+    </string-array>
+    <string-array name="excluir_copiar">
+        <item>Verwijderen</item>
+        <item>Kopiëren</item>
+    </string-array>
+    <string-array name="horario_long_press">
+        <item>Lesrooster bekijken</item>
+        <item>Kopiëren</item>
+        <item>Bewerken</item>
+        <item>Verwijderen</item>
+    </string-array>
+    <string-array name="meses">
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Maart</item>
+        <item>April</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>Augustus</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="popup_menu">
+        <item>Nieuwe gebeurtenis</item>
+        <item>Gebeurtenissen bekijken</item>
+    </string-array>
+    <string-array name="popup_menu2">
+        <item>Nieuwe gebeurtenis</item>
+        <item>Lesrooster bekijken</item>
+    </string-array>
+    <string-array name="tipo_evento">
+        <item>Examen</item>
+        <item>Klaswerk/Huiswerk</item>
+        <item>Activiteit</item>
+        <item>Boek terugbrengen</item>
+    </string-array>
+</resources>

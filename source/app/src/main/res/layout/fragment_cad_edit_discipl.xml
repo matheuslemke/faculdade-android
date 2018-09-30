@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/LinearLayout1" android:background="#ff2980b9" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/linearLayout1" android:background="@drawable/clean_style" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip">
+                <TextView android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nome_disciplina" />
+                <EditText android:id="@id/etNomeDisciplina" android:background="@drawable/apptheme_edit_text_holo_light" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/opcional" android:inputType="textCapWords" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/linearLayout2" android:background="@drawable/clean_style" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip">
+                <TextView android:id="@id/tvAbreviacao" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/abreviacao" />
+                <EditText android:id="@id/etAbreviacao" android:background="@drawable/apptheme_edit_text_holo_light" android:layout_width="180.0dip" android:layout_height="wrap_content" android:maxLength="7" android:layout_weight="1.0" android:inputType="textCapWords" />
+                <TextView android:textSize="13.0sp" android:textColor="@android:color/darker_gray" android:id="@id/textView6" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/abreviacao_exemplo" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/linearLayout3" android:background="@drawable/clean_style" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip">
+                <TextView android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nome_professor" />
+                <EditText android:id="@id/etNomeProfessor" android:background="@drawable/apptheme_edit_text_holo_light" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/opcional" android:inputType="textPersonName" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/linearLayout4" android:background="@drawable/clean_style" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip">
+                <TextView android:id="@id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/email_professor" />
+                <EditText android:id="@id/etEmailProfessor" android:background="@drawable/apptheme_edit_text_holo_light" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/opcional" android:inputType="textEmailAddress" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout6" android:background="@drawable/clean_style" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:id="@id/texto_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cor" />
+                    <TextView android:textSize="13.0sp" android:textColor="@android:color/darker_gray" android:gravity="center_vertical" android:id="@id/texto_background_descricao" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:text="@string/cor_disciplina_descricao" android:layout_weight="1.0" />
+                </LinearLayout>
+                <com.clawdyvan.agendaestudantepro.CustomViews.CirculoView android:id="@id/cvCorDisciplina" android:tag="circuloView" android:padding="4.0dip" android:layout_width="50.0dip" android:layout_height="50.0dip" custom:cor="\#000000" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/linearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff404040" android:id="@id/btLeft" android:background="@drawable/buttom_clean_selector" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_weight="0.5" />
+        <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff404040" android:id="@id/btRight" android:background="@drawable/buttom_clean_selector" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_weight="0.5" />
+    </LinearLayout>
+</LinearLayout>

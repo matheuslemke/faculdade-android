@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#ffbdc3c7" android:layout_width="fill_parent" android:layout_height="30.0dip">
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/dados" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/btFazerBackup" android:paddingLeft="20.0dip" android:paddingTop="10.0dip" android:paddingRight="20.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/criar_copia_dados" />
+            <TextView android:textSize="12.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/criar_copia_dados_descricao" />
+        </LinearLayout>
+        <View android:background="#ffbdc3c7" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginRight="30.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/btExcluirDados" android:paddingLeft="20.0dip" android:paddingTop="10.0dip" android:paddingRight="20.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/excluir_todos_dados" />
+            <TextView android:textSize="12.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/excluir_todos_dados_descricao" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tituloListaBackup" android:background="#ffbdc3c7" android:layout_width="fill_parent" android:layout_height="30.0dip">
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/lista_copias_criadas" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="20.0dip" android:paddingTop="10.0dip" android:paddingRight="20.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lista_copias_criadas_descricao" />
+        </LinearLayout>
+        <ListView android:id="@id/lvListaBackups" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0sp" android:gravity="center_horizontal" android:id="@id/listaVazia" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lista_vazia" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/aviso" android:background="#ffffffff" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textStyle="bold" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/aviso_backup_descricao" />
+        <TextView android:paddingLeft="25.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/aviso_backup_upgrated_pro" />
+        <TextView android:paddingLeft="25.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/aviso_backup_deletar_tudo" />
+        <TextView android:id="@id/btContinuar" android:background="@drawable/clean_style" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/continuar" />
+    </LinearLayout>
+</FrameLayout>

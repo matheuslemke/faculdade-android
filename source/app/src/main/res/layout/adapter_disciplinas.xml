@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/buttom_clean_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="10.0sp" android:gravity="center_horizontal" android:id="@id/tvNomeDisciplina" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:gravity="center_horizontal" android:id="@id/tvAbreviacao" android:layout_width="fill_parent" android:layout_height="wrap_content" android:shadowColor="#7f000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" />
+    <TextView android:textSize="10.0sp" android:gravity="center_horizontal" android:id="@id/tvNomeProfessor" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>
