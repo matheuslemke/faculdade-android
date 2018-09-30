@@ -1,0 +1,7 @@
+Como salvar a cifra (letra/notas)?
+1. Para cada linha da letra, escrever uma nova linha com espaços e adicionar as notas
+
+2. Salvar para cada linha um vetor contendo o numero de espacos usados para escrever cada intervalo entre as notas
+
+3. Salvar de maneira estatica
+
